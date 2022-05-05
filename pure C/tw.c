@@ -18,7 +18,7 @@ Tested (compiled and run):
 */
 
 //created: 20220503
-//updated: 20220504
+//updated: 20220504, 05
 
 
 /* TODO:
@@ -341,7 +341,7 @@ void help(char *exe)
   fprintf(stderr, "gdzie:\n");
   fprintf(stderr, "-h - ninejsza pomoc\n");
   fprintf(stderr, "-a - o programie\n");
-  fprintf(stderr, "-c <liczba> - ilość zwrotek (1-%d, domyślnie 4\n", XLIMIT);
+  fprintf(stderr, "-c <liczba> - ilość zwrotek (1-%d, domyślnie 4)\n", XLIMIT);
   fprintf(stderr, "-r - powtórzenia dopuszczalne\n");
   fprintf(stderr, "-m <liczba> - rodzaj rymów (0=ABAB, 1=ABBA, 2=AABB)\n");
   fprintf(stderr, "\n");
