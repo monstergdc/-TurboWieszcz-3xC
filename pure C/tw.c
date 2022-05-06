@@ -18,7 +18,7 @@ Tested (compiled and run):
 */
 
 //created: 20220503
-//updated: 20220504, 05
+//updated: 20220504, 05, 06
 
 
 /* TODO:
@@ -304,7 +304,7 @@ char *generate_poem(int cnt, int rym, int repeat_ok)
   int z, w, ttid, p;
   static char buffer[BUFSIZE*4*XLIMIT+1024]; //note: const size, but properly oversized
 
-  if (cnt < 1) return "";
+  if ((cnt < 1) || (cnt > XLIMIT)) return "";
 
   ttid = rand() % TCNT;
   for (z=0;z<cnt;z++)
