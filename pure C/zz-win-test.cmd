@@ -1,9 +1,14 @@
 
-turboWieszcz.exe -h
+TurboWieszcz.exe -c
 @pause
-turboWieszcz.exe -a
+
+TurboWieszcz.exe -c 100 -m 0 -r 0
 @pause
-turboWieszcz.exe
+
+TurboWieszcz.exe -c 6 -m 234 -r 0
 @pause
-turboWieszcz.exe -c 6
+
+TurboWieszcz.exe -a
+@pause
+TurboWieszcz.exe -h
 @pause

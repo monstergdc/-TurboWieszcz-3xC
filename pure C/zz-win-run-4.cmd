@@ -1,0 +1,3 @@
+
+turboWieszcz.exe
+@pause
