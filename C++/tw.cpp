@@ -14,6 +14,7 @@ also inspired by version written for iPhone by Tomek (Grych) Gryszkiewicz.
 
 //created: 20220505
 //updated: 20220506
+//updated: 20220903
 
 
 /* TODO:
@@ -234,6 +235,7 @@ TurboWieszcz::TurboWieszcz()
 const std::string TurboWieszcz::generate_poem(int cnt, int rym, int repeat_ok)
 {
   if ((cnt < 1) || (cnt > XLIMIT)) return "";
+  if ((rym < 0) || (rym > 2)) return "";
 
   int ttid = rand() % TCNT;
   for (int z=0;z<cnt;z++)
