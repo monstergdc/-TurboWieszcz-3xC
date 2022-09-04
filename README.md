@@ -1,5 +1,5 @@
 # -TurboWieszcz-3xC
-Famous TurboWieszcz poem generator (in Polish only) - C / C++ / C# version
+Famous TurboWieszcz poem generator (in Polish only) - C / C++ / C# versions
 
 - To build on Linux / UNIX systems: just type **make**
 - To build on Windows you need MinGW (or Cygwin? not tested): run provided **zz-build-win-mingw-gcc.cmd** script.

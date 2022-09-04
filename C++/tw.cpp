@@ -1,6 +1,6 @@
 ﻿
 /*
-TurboWieszcz++ in C++, v1.0
+TurboWieszcz++ in C++, v2.0
 (c)2022 Noniewicz.com, Jakub Noniewicz aka MoNsTeR/GDC
 
 based on (translated from): previous version written pure C
@@ -14,7 +14,7 @@ also inspired by version written for iPhone by Tomek (Grych) Gryszkiewicz.
 
 //created: 20220505
 //updated: 20220506
-//updated: 20220903
+//updated: 20220903, 04
 
 
 /* TODO:

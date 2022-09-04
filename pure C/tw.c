@@ -1,6 +1,6 @@
 ﻿
 /*
-TurboWieszcz++ in pure C, v1.0
+TurboWieszcz++ in pure C, v2.0
 (c)2022 Noniewicz.com, Jakub Noniewicz aka MoNsTeR/GDC
 
 based directly on (translated from): previous version written in Lazarus
@@ -19,7 +19,7 @@ Tested (compiled and run):
 
 //created: 20220503
 //updated: 20220504, 05, 06, 13
-//updated: 20220903
+//updated: 20220903, 04
 
 
 /* TODO:
@@ -50,7 +50,7 @@ Tested (compiled and run):
 //static buffer
 #define BUFSIZE 256
 
-#define TWNAME "TurboWieszcz++ - wersja w czystym C, v1.0\n"
+#define TWNAME "TurboWieszcz++ - wersja w czystym C, v2.0\n"
 #define TWMORE "Generator poezji (FREEWARE)\n(c)2022 Noniewicz.com, Jakub Noniewicz aka MoNsTeR/GDC\nhttp://www.noniewicz.com/\n"
 
 //consts (data)

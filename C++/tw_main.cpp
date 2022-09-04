@@ -1,6 +1,6 @@
 ﻿
 /*
-TurboWieszcz++ in C++, v1.0
+TurboWieszcz++ in C++, v2.0
 (c)2022 Noniewicz.com, Jakub Noniewicz aka MoNsTeR/GDC
 
 based on (translated from): previous version written pure C
@@ -19,6 +19,7 @@ x- FreeBSD 6.3-RELEASE / gcc (g++) version ?
 
 //created: 20220505
 //updated: 20220506
+//updated: 20220904
 
 
 /* TODO:
@@ -44,7 +45,7 @@ using namespace std;
 
 //defines
 
-#define TWNAME "TurboWieszcz++ - wersja w C++, v1.0\n"
+#define TWNAME "TurboWieszcz++ - wersja w C++, v2.0\n"
 #define TWMORE "Generator poezji (FREEWARE)\n(c)2022 Noniewicz.com, Jakub Noniewicz aka MoNsTeR/GDC\nhttp://www.noniewicz.com/\n"
 
 
